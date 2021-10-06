@@ -2442,17 +2442,17 @@ var Logo = function (_a) {
     var isPushed = _a.isPushed, togglePush = _a.togglePush, isDark = _a.isDark, href = _a.href, banner = _a.banner;
     var isAbsoluteUrl = href.startsWith("http");
     if (isDark) {
-        banner = 'https://ipfs.io/ipfs/QmcJg2DVfP3m4puLxcGj9hJFcfVgoQEkbKFhVUk4w6oaBW?filename=BannerDark.png';
+        banner = 'https://gateway.pinata.cloud/ipfs/QmTS7vUBrLYVArZiraGc3zB2tShycKPweAATV4T7njbUkx"';
     }
     else {
-        banner = 'https://ipfs.io/ipfs/QmQg2ARbBTWaiFxHdTBsybTsbH8fAUA4pd7XbdvJ3mDUnP?filename=BannerLight.png';
+        banner = 'https://gateway.pinata.cloud/ipfs/QmTS7vUBrLYVArZiraGc3zB2tShycKPweAATV4T7njbUkx"';
     }
     return (React__default['default'].createElement(Flex, null,
         React__default['default'].createElement(MenuButton, { "aria-label": "Toggle menu", onClick: togglePush, mr: "24px" }, isPushed ? (React__default['default'].createElement(Icon$m, { width: "24px", color: "textSubtle" })) : (React__default['default'].createElement(Icon$n, { width: "24px", color: "textSubtle" }))),
         isAbsoluteUrl ? (React__default['default'].createElement(StyledLink, { as: "a", href: href, "aria-label": "Knights DeFi home page" },
-            React__default['default'].createElement("img", { src: "https://ipfs.io/ipfs/QmPDPkJHr65KxEDWEE725CuvK5ytfWXbx1fpAKiWf8PNoR?filename=logo.svg", alt: "Knights DeFi Logo", className: "mobile-icon" }),
+            React__default['default'].createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmTS7vUBrLYVArZiraGc3zB2tShycKPweAATV4T7njbUkx", alt: "FesBNB Logo", className: "mobile-icon" }),
             React__default['default'].createElement("img", { src: banner, alt: "Knights DeFi Logo", className: "desktop-icon" }))) : (React__default['default'].createElement(StyledLink, { to: href, "aria-label": "Knights DeFi home page" },
-            React__default['default'].createElement("img", { src: "https://ipfs.io/ipfs/QmPDPkJHr65KxEDWEE725CuvK5ytfWXbx1fpAKiWf8PNoR?filename=logo.svg", alt: "Knights DeFi Logo", className: "mobile-icon" }),
+            React__default['default'].createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmTS7vUBrLYVArZiraGc3zB2tShycKPweAATV4T7njbUkx", alt: "FesBNB Logo", className: "mobile-icon" }),
             React__default['default'].createElement("img", { src: banner, alt: "Knights DeFi Logo", className: "desktop-icon" })))));
 };
 var templateObject_1$c;
@@ -2736,13 +2736,13 @@ var PanelFooter = function (_a) {
                 React__default['default'].createElement(Icon$T, null))));
     }
     return (React__default['default'].createElement(Container, null,
-        React__default['default'].createElement(SocialEntry, null, cakePriceUsd ? (React__default['default'].createElement(PriceLink, { href: "https://pancakeswap.info/token/0x16C0e0936E1B38Ff1F9b8a1e75d8ba29aDf87d30", target: "_blank" },
-            React__default['default'].createElement("img", { src: "https://ipfs.io/ipfs/QmREFZU2mdg1Sv1Q2Ma8sB63uWBN9MsJ1WULWZ1Q1vk2ND?filename=knight.png", alt: "KNIGHT Logo", style: {
+        React__default['default'].createElement(SocialEntry, null, cakePriceUsd ? (React__default['default'].createElement(PriceLink, { href: "https://pancakeswap.info/token/0x8371a55dBEE669f16bD9e6137e2cE39ee87aE8e2", target: "_blank" },
+            React__default['default'].createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmTS7vUBrLYVArZiraGc3zB2tShycKPweAATV4T7njbUkx", alt: "FesBNB Logo", style: {
                     width: "24px",
                     marginRight: "8px",
                 } }),
             React__default['default'].createElement(Text, { color: "textSubtle", bold: true }, "$" + cakePriceUsd.toFixed(4)))) : (React__default['default'].createElement(Skeleton, { width: 80, height: 24 },
-            React__default['default'].createElement("img", { src: "https://ipfs.io/ipfs/QmREFZU2mdg1Sv1Q2Ma8sB63uWBN9MsJ1WULWZ1Q1vk2ND?filename=knight.png", alt: "KNIGHT Logo", style: {
+            React__default['default'].createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmTS7vUBrLYVArZiraGc3zB2tShycKPweAATV4T7njbUkx", alt: "FesBNB Logo", style: {
                     width: "24px",
                     marginRight: "8px",
                 } })))),

@@ -34,9 +34,9 @@ const StyledLink = styled(Link)`
 const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href, banner }) => {
   const isAbsoluteUrl = href.startsWith("http");
   if(isDark){
-    banner = 'https://ipfs.io/ipfs/QmcJg2DVfP3m4puLxcGj9hJFcfVgoQEkbKFhVUk4w6oaBW?filename=BannerDark.png';
+    banner = 'https://gateway.pinata.cloud/ipfs/QmTS7vUBrLYVArZiraGc3zB2tShycKPweAATV4T7njbUkx"';
   } else {
-    banner = 'https://ipfs.io/ipfs/QmQg2ARbBTWaiFxHdTBsybTsbH8fAUA4pd7XbdvJ3mDUnP?filename=BannerLight.png';
+    banner = 'https://gateway.pinata.cloud/ipfs/QmTS7vUBrLYVArZiraGc3zB2tShycKPweAATV4T7njbUkx"';
   }
 
   return (
@@ -51,8 +51,8 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href, banner }) =
       {isAbsoluteUrl ? (
         <StyledLink as="a" href={href} aria-label="Knights DeFi home page">
           <img
-            src="https://ipfs.io/ipfs/QmPDPkJHr65KxEDWEE725CuvK5ytfWXbx1fpAKiWf8PNoR?filename=logo.svg"
-            alt="Knights DeFi Logo"
+            src="https://gateway.pinata.cloud/ipfs/QmTS7vUBrLYVArZiraGc3zB2tShycKPweAATV4T7njbUkx"
+            alt="FesBNB Logo"
             className="mobile-icon"
           />
           <img
@@ -64,8 +64,8 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href, banner }) =
       ) : (
         <StyledLink to={href} aria-label="Knights DeFi home page">
           <img
-            src="https://ipfs.io/ipfs/QmPDPkJHr65KxEDWEE725CuvK5ytfWXbx1fpAKiWf8PNoR?filename=logo.svg"
-            alt="Knights DeFi Logo"
+            src="https://gateway.pinata.cloud/ipfs/QmTS7vUBrLYVArZiraGc3zB2tShycKPweAATV4T7njbUkx"
+            alt="FesBNB Logo"
             className="mobile-icon"
           />
           <img
