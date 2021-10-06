@@ -57,6 +57,7 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href, banner }) =
           />
           <img
             src={banner}
+            height="32px"
             alt="Knights DeFi Logo"
             className="desktop-icon"
           />
