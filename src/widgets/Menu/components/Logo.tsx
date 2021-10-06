@@ -23,7 +23,7 @@ const StyledLink = styled(Link)`
     }
   }
   .desktop-icon {
-    width: 312px;
+    width: 32px; // update with new banner
     display: none;
     ${({ theme }) => theme.mediaQueries.nav} {
       display: block;
@@ -57,8 +57,6 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href, banner }) =
           />
           <img
             src={banner}
-            height="32px"
-            width="32px"
             alt="FesBNB Logo"
             className="desktop-icon"
           />
@@ -72,8 +70,6 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href, banner }) =
           />
           <img
             src={banner}
-            height="32px"
-            width="32px"
             alt="Knights DeFi Logo"
             className="desktop-icon"
           />

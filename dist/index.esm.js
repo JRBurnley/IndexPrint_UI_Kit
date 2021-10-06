@@ -2418,7 +2418,7 @@ MenuButton.defaultProps = {
 };
 var templateObject_1$d;
 
-var StyledLink = styled(Link$1)(templateObject_1$c || (templateObject_1$c = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 32px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 312px;\n    display: none;\n    ", " {\n      display: block;\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 32px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 312px;\n    display: none;\n    ", " {\n      display: block;\n    }\n  }\n"])), function (_a) {
+var StyledLink = styled(Link$1)(templateObject_1$c || (templateObject_1$c = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 32px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 32px; // update with new banner\n    display: none;\n    ", " {\n      display: block;\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 32px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 32px; // update with new banner\n    display: none;\n    ", " {\n      display: block;\n    }\n  }\n"])), function (_a) {
     var theme = _a.theme;
     return theme.mediaQueries.nav;
 }, function (_a) {
@@ -2438,9 +2438,9 @@ var Logo = function (_a) {
         React.createElement(MenuButton, { "aria-label": "Toggle menu", onClick: togglePush, mr: "24px" }, isPushed ? (React.createElement(Icon$m, { width: "24px", color: "textSubtle" })) : (React.createElement(Icon$n, { width: "24px", color: "textSubtle" }))),
         isAbsoluteUrl ? (React.createElement(StyledLink, { as: "a", href: href, "aria-label": "Knights DeFi home page" },
             React.createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmTS7vUBrLYVArZiraGc3zB2tShycKPweAATV4T7njbUkx", alt: "FesBNB Logo", className: "mobile-icon" }),
-            React.createElement("img", { src: banner, height: "32px", width: "32px", alt: "FesBNB Logo", className: "desktop-icon" }))) : (React.createElement(StyledLink, { to: href, "aria-label": "Knights DeFi home page" },
+            React.createElement("img", { src: banner, alt: "FesBNB Logo", className: "desktop-icon" }))) : (React.createElement(StyledLink, { to: href, "aria-label": "Knights DeFi home page" },
             React.createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmTS7vUBrLYVArZiraGc3zB2tShycKPweAATV4T7njbUkx", alt: "FesBNB Logo", className: "mobile-icon" }),
-            React.createElement("img", { src: banner, height: "32px", width: "32px", alt: "Knights DeFi Logo", className: "desktop-icon" })))));
+            React.createElement("img", { src: banner, alt: "Knights DeFi Logo", className: "desktop-icon" })))));
 };
 var templateObject_1$c;
 
