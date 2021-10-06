@@ -2451,9 +2451,9 @@ var Logo = function (_a) {
         React__default['default'].createElement(MenuButton, { "aria-label": "Toggle menu", onClick: togglePush, mr: "24px" }, isPushed ? (React__default['default'].createElement(Icon$m, { width: "24px", color: "textSubtle" })) : (React__default['default'].createElement(Icon$n, { width: "24px", color: "textSubtle" }))),
         isAbsoluteUrl ? (React__default['default'].createElement(StyledLink, { as: "a", href: href, "aria-label": "Knights DeFi home page" },
             React__default['default'].createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmTS7vUBrLYVArZiraGc3zB2tShycKPweAATV4T7njbUkx", alt: "FesBNB Logo", className: "mobile-icon" }),
-            React__default['default'].createElement("img", { src: banner, height: "32px", alt: "Knights DeFi Logo", className: "desktop-icon" }))) : (React__default['default'].createElement(StyledLink, { to: href, "aria-label": "Knights DeFi home page" },
+            React__default['default'].createElement("img", { src: banner, height: "32px", width: "32px", alt: "FesBNB Logo", className: "desktop-icon" }))) : (React__default['default'].createElement(StyledLink, { to: href, "aria-label": "Knights DeFi home page" },
             React__default['default'].createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmTS7vUBrLYVArZiraGc3zB2tShycKPweAATV4T7njbUkx", alt: "FesBNB Logo", className: "mobile-icon" }),
-            React__default['default'].createElement("img", { src: banner, alt: "Knights DeFi Logo", className: "desktop-icon" })))));
+            React__default['default'].createElement("img", { src: banner, height: "32px", width: "32px", alt: "Knights DeFi Logo", className: "desktop-icon" })))));
 };
 var templateObject_1$c;
 

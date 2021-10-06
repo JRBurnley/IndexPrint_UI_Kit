@@ -58,7 +58,8 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href, banner }) =
           <img
             src={banner}
             height="32px"
-            alt="Knights DeFi Logo"
+            width="32px"
+            alt="FesBNB Logo"
             className="desktop-icon"
           />
         </StyledLink>
@@ -71,6 +72,8 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href, banner }) =
           />
           <img
             src={banner}
+            height="32px"
+            width="32px"
             alt="Knights DeFi Logo"
             className="desktop-icon"
           />
